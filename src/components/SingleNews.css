@@ -1,0 +1,18 @@
+.single-news {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .single-news h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .single-news p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  
