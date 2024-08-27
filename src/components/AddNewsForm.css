@@ -1,0 +1,31 @@
+.add-news-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-news-form input,
+  .add-news-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .add-news-form button {
+    padding: 10px;
+    border: none;
+    background-color: #0F6D4B;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-news-form button:hover {
+    background-color: #0A4D37;
+  }
+  

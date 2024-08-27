@@ -1,18 +1,120 @@
 .single-news {
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    margin-top: 20px;
-  }
-  
-  .single-news h2 {
-    font-size: 24px;
-    margin-bottom: 15px;
-  }
-  
-  .single-news p {
-    font-size: 16px;
-    line-height: 1.5;
-  }
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+  padding: 20px;
+  animation: fadeIn 1s ease-in;
+}
 
-  
+.news-container {
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 800px;
+  width: 100%;
+  animation: slideInUp 1s ease-out;
+}
+
+.news-image-container {
+  overflow: hidden;
+}
+
+.news-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  animation: zoomIn 1s ease-out;
+}
+
+.news-content {
+  padding: 20px;
+}
+
+.news-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+  animation: fadeInLeft 1s ease-in;
+}
+
+.news-date {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+  animation: fadeInRight 1s ease-in;
+}
+
+.news-text {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+  animation: fadeInUp 1s ease-in;
+}
+
+/* Анимации */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale(1.1);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

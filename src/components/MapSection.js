@@ -5,7 +5,7 @@ function MapSection() {
     <section className="map-section">
       <div className="container">
         <div className="map-container">
-          <h2>Карта мечетей</h2>
+          <h2>Map section</h2>
           {/* Добавьте карту или ее заглушку */}
         </div>
       </div>

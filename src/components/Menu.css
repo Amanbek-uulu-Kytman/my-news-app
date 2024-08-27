@@ -1,0 +1,37 @@
+.menu-block {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding: 20px;
+  }
+  
+  .menu-block h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #0F6D4B;
+  }
+  
+  .menu-block ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .menu-block ul li {
+    margin-bottom: 15px;
+  }
+  
+  .menu-block ul li a {
+    text-decoration: none;
+    color: #0F6D4B;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+  }
+  
+  .menu-block ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .menu-block ul li a svg {
+    margin-right: 10px;
+  }
+  

@@ -7,12 +7,12 @@ function Header() {
     <header className="header-section">
       <div className="container">
         <div className="logo">
-          <Link to="/"><img src="/logo.png" alt="Логотип" /></Link>
+          <Link to="/"><img src="assets/logo.png" alt="Логотип" /></Link>
         </div>
         <nav className="nav-menu">
           <ul>
             <li><Link to="/">Главная</Link></li>
-            <li><Link to="/news">Новости</Link></li>
+            <li><Link to="/news">Жанылыктар</Link></li>
             <li><Link to="/login">Вход</Link></li>
           </ul>
         </nav>
@@ -20,8 +20,8 @@ function Header() {
           <input type="text" placeholder="Поиск..." />
         </div>
         <Link to="/login">
-          <button className="button">Кируу</button>
-        </Link>
+        <button className="button">Кируу</button>
+      </Link>
       </div>
     </header>
   );
